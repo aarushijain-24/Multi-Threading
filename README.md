@@ -9,7 +9,7 @@ Matrix multiplication is a computationally intensive task, particularly for larg
 2. Performance Analysis: Measures and compares the execution time for different numbers of threads.
 3. Visualization: Includes a graphical representation of execution time versus the number of threads using matplotlib.
 
-# Results
+## Results
 The program will output the execution time for different numbers of threads, demonstrating the impact of multithreading on performance. 
 
 <img src="https://github.com/aarushijain-24/Multi-Threading/assets/144267641/49849fad-10f9-4a1f-b4ac-a6274122fbf2" width="500"/>
