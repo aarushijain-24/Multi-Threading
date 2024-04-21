@@ -19,3 +19,10 @@ Additionally, a graphical representation of execution time versus the number of 
 </br>
 </br>
 <img src="https://github.com/aarushijain-24/Multi-Threading/assets/144267641/cc5853f0-2419-4034-810b-7b92e2cf44f7" width="750"/>
+</br>
+</br>
+The CPU usage illustrates the system's resource utilization during the execution of the program, providing insights into the efficiency of multithreading and the distribution of computational workload across CPU cores.
+
+</br>
+</br>
+<img src="https://github.com/aarushijain-24/Multi-Threading/blob/main/CPU_usage.png" width="600"/>
