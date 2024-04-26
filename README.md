@@ -9,16 +9,16 @@ Matrix multiplication is a computationally intensive task, particularly for larg
 2. Performance Analysis: Measures and compares the execution time for different numbers of threads.
 3. Visualization: Includes a graphical representation of execution time versus the number of threads using matplotlib.
 
-## Results
+## Outputs
 The program will output the execution time for different numbers of threads, demonstrating the impact of multithreading on performance. 
 
-<img src="https://github.com/aarushijain-24/Multi-Threading/assets/144267641/49849fad-10f9-4a1f-b4ac-a6274122fbf2" width="500"/>
+<img src="https://github.com/aarushijain-24/Multi-Threading/assets/144267641/aa6e779b-5826-4dca-9de5-41e09f5cae57" width="500"/>
 </br>
 </br>
 Additionally, a graphical representation of execution time versus the number of threads will be displayed.
 </br>
 </br>
-<img src="https://github.com/aarushijain-24/Multi-Threading/assets/144267641/cc5853f0-2419-4034-810b-7b92e2cf44f7" width="750"/>
+<img src="https://github.com/aarushijain-24/Multi-Threading/assets/144267641/de70f937-a188-4f31-876a-04164ac87b89" width="750"/>
 </br>
 </br>
 The CPU usage illustrates the system's resource utilization during the execution of the program, providing insights into the efficiency of multithreading and the distribution of computational workload across CPU cores.
@@ -26,3 +26,6 @@ The CPU usage illustrates the system's resource utilization during the execution
 </br>
 </br>
 <img src="https://github.com/aarushijain-24/Multi-Threading/blob/main/CPU_usage.png" width="600"/>
+
+## Result
+With four CPU cores available, the execution time decreased as the number of threads increased up to four. However, as we continued to increase the number of threads beyond the available cores, from five to eight, the execution time also increased slightly. This suggests that while utilizing up to the number of available CPU cores can significantly improve performance, exceeding that number can lead to diminishing returns and even slight performance degradation due to increased overhead.
